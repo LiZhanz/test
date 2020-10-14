@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style type="text/css">
+        /* 测试导入css */
+        @import url("test.css");
+    </style>
+</head>
+<body>
+    <div class="item">
+        <p>测试中间div不浮动时的div结构</p>
+        <div class="layout" style="width: 600px;">
+            <div class="header"></div>
+            <div class="main">
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="center"></div>
+            </div>
+            <div class="footer"></div>
+        </div>        
+    </div>
+    <div class="item">
+        <p>测试font-variant属性</p>
+        <p class="variant">中文ABCabc123中文</p>
+    </div>
+    <div class="item">
+        <p>测试滚动文字</p>
+        <marquee behavior="" direction="right" scrollamount="4">这是字体水平向左滚动内容。</marquee>
+        <marquee behavior="" direction="left" scrollamount="4">这是字体水平向左滚动内容。</marquee>
+        <marquee behavior="" direction="down" scrollamount="2">这是字体垂直向下滚动内容。</marquee>
+        <marquee behavior="" direction="up" scrollamount="2">这是字体垂直向上滚动内容。</marquee>
+    </div>
+    <div class="item">
+        <p>测试拼音/音标</p>
+        <p>
+            <ruby>
+                李<rp>(</rp><rt>li</rt><rp>)</rp>
+                展<rp>(</rp><rt>zhan</rt><rp>)</rp>
+                展<rp>(</rp><rt>zhan</rt><rp>)</rp>
+                李<rt>li</rt>
+            </ruby>
+        </p>
+    </div>
+</body>
+</html>

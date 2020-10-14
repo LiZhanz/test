@@ -1,0 +1,52 @@
+/* *{
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0px;
+} */
+body{
+    background-color: antiquewhite;
+}
+.item{
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+
+.layout .header{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+}
+.layout .main{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+.layout .left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+.layout .center{
+    height: 100%;
+    padding: 0 30%;
+    background-color: aliceblue;
+}
+.layout .right{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: black;
+}
+.layout .footer{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+}
+
+.variant{
+    font-variant: small-caps;
+}
